@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<title>Marlon.io</title>
+<link rel="stylesheet" href="../static/css/main.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
+
+</head>
+<body>
+<div id="content">
+<h1>Marlon.io</h1>
+<form action="/subscribe/" method="post" name="userdata">
+<strong>{{ msg }}</strong>
+<p>To subscribe to newsletters offering updates on local crime incidents, please enter the following information:</p>
+
+<table>
+   <tr>
+   <th>Address:</th>
+   <th>Email:</th>
+   </tr>
+   <tr>
+   <td>
+   <input type="text" name="address" id="text">
+   </td>
+   <td>
+   <input type="text" name="email" id="text">
+   </td>
+   </tr>
+</table>
+<!--- <strong>Preferences:</strong> -->
+<input type="submit" id="button">
+
+</form>
+<div id="footer">
+Uses <a href="http://redis.io">Redis</a>, <a href="http://celeryproject.org">Celery</a>, <a href="http://flask.pocoo.org">Flask</a>, <a href="http://plenar.io">Plenar.io</a>, and <a href="http://mailjet.com">Mailjet</a> |  Coded at 2014 Northwestern <a href="http://wildhacks.org">Wildhacks</a> | <a href="http://github.com/achtor/civic_emails/">Github</a>
+</div>
+</div>
+</body>
+</html>

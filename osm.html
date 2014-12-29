@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+   <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.5/leaflet.css" />
+   <script src="http://cdn.leafletjs.com/leaflet-0.5/leaflet.js"></script>
+   
+   
+   
+   
+
+
+<style>
+
+#map {
+  position:absolute;
+  top:0;
+  bottom:0;
+  right:0;
+  left:0;
+}
+
+</style>
+</head>
+<body>
+
+        <div id="map" style="width: 960px; height: 500px"></div>
+
+<script>
+
+
+
+var map = L.map('map').setView([41.7879125, -87.5866529], 14);
+
+L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: 'Map data (c) <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+}).addTo(map);
+
+
+var marker_1 = L.marker([41.788292766, -87.577710405]);
+marker_1.bindPopup("2014-11-05 12:30:00: crim sexual assault (CPD Comment: aggravated: other)");
+map.addLayer(marker_1)
+
+var marker_2 = L.marker([41.795331705, -87.584393786]);
+marker_2.bindPopup("2014-11-05 08:55:00: robbery (CPD Comment: armed: handgun)");
+map.addLayer(marker_2)
+
+var marker_3 = L.marker([41.797710597, -87.590248559]);
+marker_3.bindPopup("2014-11-06 22:20:00: robbery (CPD Comment: aggravated)");
+map.addLayer(marker_3)
+
+var marker_4 = L.marker([41.783416777, -87.592976552]);
+marker_4.bindPopup("2014-11-06 11:15:00: battery (CPD Comment: simple)");
+map.addLayer(marker_4)
+
+var marker_5 = L.marker([41.797711905, -87.595133489]);
+marker_5.bindPopup("2014-11-07 08:00:00: robbery (CPD Comment: armed: handgun)");
+map.addLayer(marker_5)
+
+var marker_6 = L.marker([41.779665183, -87.5865926]);
+marker_6.bindPopup("2014-11-07 14:15:00: battery (CPD Comment: simple)");
+map.addLayer(marker_6)
+
+var marker_7 = L.marker([41.799410277, -87.587434309]);
+marker_7.bindPopup("2014-11-08 13:10:00: battery (CPD Comment: simple)");
+map.addLayer(marker_7)
+
+var marker_8 = L.marker([41.79797807, -87.588327423]);
+marker_8.bindPopup("2014-11-08 11:50:00: battery (CPD Comment: simple)");
+map.addLayer(marker_8)
+
+var marker_9 = L.marker([41.793207255, -87.592376166]);
+marker_9.bindPopup("2014-11-09 17:55:00: robbery (CPD Comment: strongarm - no weapon)");
+map.addLayer(marker_9)
+
+var marker_10 = L.marker([41.780700325, -87.587944493]);
+marker_10.bindPopup("2014-11-09 03:25:00: battery (CPD Comment: aggravated:knife/cutting instr)");
+map.addLayer(marker_10)
+
+var marker_11 = L.marker([41.776855447, -87.587501414]);
+marker_11.bindPopup("2014-11-10 20:44:00: assault (CPD Comment: simple)");
+map.addLayer(marker_11)
+
+var marker_12 = L.marker([41.787302144, -87.584846595]);
+marker_12.bindPopup("2014-11-10 19:17:00: battery (CPD Comment: aggravated: handgun)");
+map.addLayer(marker_12)
+
+var marker_13 = L.marker([41.777845261, -87.586522057]);
+marker_13.bindPopup("2014-11-10 08:15:00: assault (CPD Comment: simple)");
+map.addLayer(marker_13)
+
+var marker_14 = L.marker([41.777845261, -87.586522057]);
+marker_14.bindPopup("2014-11-09 21:00:00: robbery (CPD Comment: armed: other dangerous weapon)");
+map.addLayer(marker_14)
+
+var circle_1 = L.circle([41.7879125, -87.5866529], 75, {
+                            color: 'black',
+                            fillColor: '#FF0000',
+                            fillOpacity: 0.6
+                            });
+circle_1.bindPopup("Your Location");
+map.addLayer(circle_1)
+
+
+
+
+
+
+</script>
+
+</body>

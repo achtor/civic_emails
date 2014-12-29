@@ -1,0 +1,16 @@
+"","date","block","primary_type","description","location_description","arrest","domestic","latitude","longitude","within","coords"
+"1","2014-11-05 12:30:00","058XX S LAKE SHORE DR","crim sexual assault","aggravated: other","OTHER","False","False",41.788292766,-87.577710405,1,41.7879125
+"2","2014-11-05 08:55:00","016XX E 55TH ST","robbery","armed: handgun","GROCERY FOOD STORE","False","False",41.795331705,-87.584393786,1,-87.5866529
+"3","2014-11-06 22:20:00","054XX S BLACKSTONE AVE","robbery","aggravated","STREET","False","False",41.797710597,-87.590248559,1,41.7879125
+"4","2014-11-06 11:15:00","061XX S KENWOOD AVE","battery","simple","NURSING HOME/RETIREMENT HOME","False","False",41.783416777,-87.592976552,1,41.7879125
+"5","2014-11-07 08:00:00","054XX S KIMBARK AVE","robbery","armed: handgun","SIDEWALK","False","False",41.797711905,-87.595133489,1,41.7879125
+"6","2014-11-07 14:15:00","063XX S STONY ISLAND AVE","battery","simple","ATHLETIC CLUB","False","False",41.779665183,-87.5865926,1,41.7879125
+"7","2014-11-08 13:10:00","053XX S LAKE PARK AVE","battery","simple","STREET","True","False",41.799410277,-87.587434309,1,41.7879125
+"8","2014-11-08 11:50:00","015XX E 54TH ST","battery","simple","STREET","True","False",41.79797807,-87.588327423,1,41.7879125
+"9","2014-11-09 17:55:00","013XX E 56TH ST","robbery","strongarm - no weapon","SIDEWALK","False","False",41.793207255,-87.592376166,1,41.7879125
+"10","2014-11-09 03:25:00","015XX E 63RD ST","battery","aggravated:knife/cutting instr","SIDEWALK","False","False",41.780700325,-87.587944493,1,41.7879125
+"11","2014-11-10 20:44:00","015XX E 65TH ST","assault","simple","APARTMENT","False","False",41.776855447,-87.587501414,1,41.7879125
+"12","2014-11-10 19:17:00","059XX S CORNELL DR","battery","aggravated: handgun","STREET","False","False",41.787302144,-87.584846595,1,41.7879125
+"13","2014-11-10 08:15:00","064XX S STONY ISLAND AVE","assault","simple","STREET","False","False",41.777845261,-87.586522057,1,41.7879125
+"14","2014-11-09 21:00:00","064XX S STONY ISLAND AVE","robbery","armed: other dangerous weapon","APARTMENT","False","False",41.777845261,-87.586522057,1,41.7879125
+"15","2014-11-11 04:15:00","064XX S STONY ISLAND AVE","robbery","strongarm - no weapon","CTA BUS STOP","False","False",41.778589217,-87.586561087,1,41.7879125
